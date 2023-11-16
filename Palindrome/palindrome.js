@@ -8,8 +8,10 @@ function palindrome(str) {
     for (let i = word.length - 1; i >= 0; i--) {
         reverse += word[i];
     }
+
     console.log("Original Word: " + word);
     console.log("Reversed: " + reverse);
+    
     if (word == reverse) {
         return true;
     } else {

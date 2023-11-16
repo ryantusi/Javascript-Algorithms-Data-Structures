@@ -2,7 +2,7 @@
 
 // Using Data Structures and Algorithm, building our own palindrome checker without using built-in functions
 
-function palindrome(str) {
+function isPalindrome(str) {
     let word = str.toLowerCase();
     let reverse = "";
     for (let i = word.length - 1; i >= 0; i--) {
@@ -11,7 +11,7 @@ function palindrome(str) {
 
     console.log("Original Word: " + word);
     console.log("Reversed: " + reverse);
-    
+
     if (word == reverse) {
         return true;
     } else {
@@ -20,5 +20,5 @@ function palindrome(str) {
   }
 
 // Test it out by replacing the string inside palindrome()
-const result = palindrome("Mom");
+const result = isPalindrome("Mom");
 console.log("Is Palindrome? " + result )

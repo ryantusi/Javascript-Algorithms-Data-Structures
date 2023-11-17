@@ -21,7 +21,7 @@ This repository hosts five projects completed during the course, showcasing vari
 - **Usage**: Use `caesarCipher()` to encode a message and `decryptCaesarCipher()` to decode it.
 
 ### 4. Telephone Number Validator
-- **Description**: A utility to validate if a given string follows the North American telephone number pattern. It checks for the correct format and structure of a phone number.
+- **Description**: A utility to validate if a given string follows the North American telephone number pattern. It checks for the correct format and structure of a phone number using rejex.
 - **Implementation**: JavaScript function `telephoneCheck()` validates the input string against the specified telephone number pattern.
 - **Usage**: Pass a string to `telephoneCheck()` to verify if it matches the North American phone number format.
 

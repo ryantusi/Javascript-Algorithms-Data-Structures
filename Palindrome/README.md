@@ -8,9 +8,8 @@ To check if a string is a palindrome, call the `isPalindrome` function and pass 
 
 Example:
 
-```javascript
 const result = isPalindrome("Mom");
-console.log("Is Palindrome? " + result); 
+console.log("Is Palindrome? " + result);
 
 ![Screenshot](screenshot1.png)
 

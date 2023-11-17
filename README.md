@@ -40,7 +40,7 @@ Each project folder contains the JavaScript file(s) for the implementation along
   
 ## Certification
 
-![Certificate](screenshots/certificate_image.png)
+![Certificate](certificate_image.png)
 
 This repository includes the certification obtained upon completion of the *freeCodeCamp* "JavaScript Algorithms and Data Structures" course.
 Click to verify my certification: [freeCodeCamp](https://www.freecodecamp.org/certification/ryantusi/javascript-algorithms-and-data-structures)

@@ -16,9 +16,9 @@ This repository hosts five projects completed during the course, showcasing vari
 - **Usage**: Call `convertToRoman()` with a numeric value to obtain its Roman numeral equivalent.
 
 ### 3. Caesar's Cipher
-- **Description**: This project demonstrates a simple encryption and decryption program based on the Caesar cipher, a type of substitution cipher. It shifts characters by a fixed number to encode and decode messages.
-- **Implementation**: JavaScript functions `caesarCipher()` and `decryptCaesarCipher()` provide encryption and decryption functionalities respectively.
-- **Usage**: Use `caesarCipher()` to encode a message and `decryptCaesarCipher()` to decode it.
+- **Description**: This project demonstrates a simple decryption program only based on the Caesar cipher, a type of substitution cipher. It shifts characters by a fixed number to decode messages. The code `SERR CVMMN!` has a decryption key of 13.
+- **Implementation**: JavaScript functions `rot13()` which takes in a string, has decryption functionalities respectively.
+- **Usage**: Use `rot13()` to decode it.
 
 ### 4. Telephone Number Validator
 - **Description**: A utility to validate if a given string follows the North American telephone number pattern. It checks for the correct format and structure of a phone number using rejex.

@@ -17,7 +17,6 @@ function rot13(str) {
     }
     return arr.join("");
     console.log(arr);
-    console.log("M".charCodeAt(0))
   }
   
   console.log(rot13("SERR CVMMN!"));

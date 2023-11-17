@@ -1,24 +1,27 @@
-// A word is palindrome if the reverse is same as the original
-
-// Using Data Structures and Algorithm, building our own palindrome checker without using built-in functions
-
 function isPalindrome(str) {
+    // Convert the input string to lowercase
     let word = str.toLowerCase();
+
+    // Initialize an empty string to store the reversed word
     let reverse = "";
+
+    // Loop through each character of the word in reverse order and create the reversed string
     for (let i = word.length - 1; i >= 0; i--) {
         reverse += word[i];
     }
 
+    // Display the original word and the reversed word
     console.log("Original Word: " + word);
     console.log("Reversed: " + reverse);
 
+    // Check if the original word is equal to the reversed word
     if (word == reverse) {
-        return true;
+        return true; // If equal, it's a palindrome
     } else {
-        return false;
+        return false; // If not equal, it's not a palindrome
     }
-  }
+}
 
-// Test it out by replacing the string inside palindrome()
+// Test the function with the input "Mom"
 const result = isPalindrome("Mom");
-console.log("Is Palindrome? " + result )
+console.log("Is Palindrome? " + result);
